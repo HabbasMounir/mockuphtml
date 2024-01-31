@@ -3,9 +3,10 @@
     padding: 0;
 }
 body{
-    background: url("./assets/wrappedGreen.jpeg");
-    background:   linear-gradient(to right, #2fce0f13 0%, rgba(255, 255, 255, 0.668) 140%),
-url('./assets/wrappedGreen.jpeg') ;
+    background: 
+        linear-gradient(to right, #d5d8d338 0%, rgba(255, 255, 255, 0.668) 140%),
+        url('./assets/wrappedGreen.jpeg') 
+        ;
     background-position:top center;
     backdrop-filter: blur(2px);
     background-size: cover;
@@ -43,17 +44,8 @@ url('./assets/wrappedGreen.jpeg') ;
     transition:background-position 1s ease-in  ;
 }
 .screen:hover ~ .viewport{
-    /* background-color: rgb(5, 51, 51);  */
-    /* background: url('./assets/wrappedGreen.jpeg'); */
-        /* background-position:top center ; */
-        /* background-size: cover; */
-    /* position: absolute; */
-    /* opacity: 0; */
     background-position:bottom center ;
     filter:brightness(100%) blur(0px);
     z-index: 1;
 }
 
-/* img{
-    position: relative;
-} */
