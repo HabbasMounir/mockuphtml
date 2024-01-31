@@ -4,7 +4,10 @@
 }
 body{
     background: url("./assets/wrappedGreen.jpeg");
+    background:   linear-gradient(to right, #2fce0f13 0%, rgba(255, 255, 255, 0.668) 140%),
+url('./assets/wrappedGreen.jpeg') ;
     background-position:top center;
+    backdrop-filter: blur(2px);
     background-size: cover;
     display: flex;
     height: 100vh;
